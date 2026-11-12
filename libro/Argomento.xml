@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Class name="Argomento" IdElRepos="0">
+  <Components/>
+  <Fields>
+    <Field name="IdArgomento" IdElRepos="2228285" type="integer" visibility="private" primaryKey="true" identity="true">
+      <Components/>
+    </Field>
+    <Field name="TitoloArgomento" IdElRepos="2228285" type="string" visibility="private" length="200">
+      <Components/>
+    </Field>
+    <Field name="DescArgomento" IdElRepos="2228285" type="string" visibility="private" length="1000">
+      <Components/>
+    </Field>
+    <Field name="Pagina" IdElRepos="2228285" type="string" visibility="private">
+      <Components/>
+    </Field>
+    <Field name="NotaArgomento" IdElRepos="1768387169" type="string" visibility="private">
+      <Components/>
+    </Field>
+    <Field name="IdLibro" IdElRepos="2228285" type="integer" visibility="private" foreignKey="true" fkSourceClass="Libro" fkOrigin="composition">
+      <Components/>
+    </Field>
+  </Fields>
+  <Methods/>
+</Class>

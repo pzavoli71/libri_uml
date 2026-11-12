@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Class name="ztrans" IdElRepos="-842150451" stereotype="pdc                           ">
+  <Components/>
+  <Fields>
+    <Field name="idtrans" IdElRepos="-842150451" type="integer" visibility="private" primaryKey="true" identity="true">
+      <Components/>
+    </Field>
+    <Field name="nometrans" IdElRepos="-842150451" type="string" visibility="private">
+      <Components/>
+    </Field>
+  </Fields>
+  <Methods/>
+</Class>

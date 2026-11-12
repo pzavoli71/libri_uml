@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Class name="TipoLibro" IdElRepos="-842150451">
+  <Components/>
+  <Fields>
+    <Field name="TpLibro" IdElRepos="-842150451" type="integer" visibility="private" primaryKey="true" autoCalcUserIdentity="true">
+      <Components/>
+    </Field>
+    <Field name="DsTipoLibro" IdElRepos="-842150451" type="string" visibility="private" length="50">
+      <Components/>
+    </Field>
+  </Fields>
+  <Methods/>
+</Class>

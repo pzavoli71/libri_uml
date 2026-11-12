@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Class name="Collana" IdElRepos="-842150451">
+  <Components/>
+  <Fields>
+    <Field name="IdCollana" IdElRepos="-842150451" type="integer" visibility="private" primaryKey="true" identity="true">
+      <Components/>
+    </Field>
+    <Field name="DsCollana" IdElRepos="-842150451" type="string" visibility="private">
+      <Components/>
+    </Field>
+    <Field name="TpLibro" IdElRepos="2228285" type="integer" visibility="private" foreignKey="true" fkSourceClass="TipoLibro" fkOrigin="association">
+      <Components/>
+    </Field>
+  </Fields>
+  <Methods/>
+</Class>

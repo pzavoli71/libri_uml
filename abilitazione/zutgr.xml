@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Class name="zutgr" IdElRepos="-842150451" stereotype="pdc                           ">
+  <Components/>
+  <Fields>
+    <Field name="idutgr" IdElRepos="-842150451" type="integer" visibility="private" primaryKey="true" identity="true">
+      <Components/>
+    </Field>
+    <Field name="id" IdElRepos="-842150451" type="integer" visibility="private">
+      <Components/>
+    </Field>
+    <Field name="idgruppo" IdElRepos="-842150451" type="integer" visibility="private">
+      <Components/>
+    </Field>
+  </Fields>
+  <Methods/>
+</Class>

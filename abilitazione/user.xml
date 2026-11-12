@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Class name="user" IdElRepos="-842150451">
+  <Components/>
+  <Fields>
+    <Field name="id" IdElRepos="-842150451" type="integer" visibility="private" primaryKey="true" identity="true">
+      <Components/>
+    </Field>
+    <Field name="username" IdElRepos="-842150451" type="string" visibility="private">
+      <Components/>
+    </Field>
+    <Field name="auth_key" IdElRepos="-842150451" type="string" visibility="private">
+      <Components/>
+    </Field>
+    <Field name="password_hash" IdElRepos="-842150451" type="string" visibility="private">
+      <Components/>
+    </Field>
+    <Field name="password_reset_token" IdElRepos="-842150451" type="string" visibility="private">
+      <Components/>
+    </Field>
+    <Field name="email" IdElRepos="-842150451" type="string" visibility="private">
+      <Components/>
+    </Field>
+    <Field name="status" IdElRepos="-842150451" type="integer" visibility="private">
+      <Components/>
+    </Field>
+    <Field name="created_at" IdElRepos="-842150451" type="integer" visibility="private">
+      <Components/>
+    </Field>
+    <Field name="updated_at" IdElRepos="-842150451" type="integer" visibility="private">
+      <Components/>
+    </Field>
+    <Field name="verification_token" IdElRepos="-842150451" type="string" visibility="private">
+      <Components/>
+    </Field>
+  </Fields>
+  <Methods/>
+</Class>

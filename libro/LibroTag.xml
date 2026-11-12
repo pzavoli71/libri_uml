@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Class name="LibroTag" IdElRepos="0">
+  <Components/>
+  <Fields>
+    <Field name="IdLibrotag" IdElRepos="2228285" type="integer" visibility="private" primaryKey="true" identity="true">
+      <Components/>
+    </Field>
+    <Field name="IdTags" IdElRepos="2228285" type="integer" visibility="private" foreignKey="true" fkSourceClass="Tags" fkOrigin="composition">
+      <Components/>
+    </Field>
+    <Field name="IdLibro" IdElRepos="3" type="integer" visibility="private" foreignKey="true" fkSourceClass="Libro" fkOrigin="association">
+      <Components/>
+    </Field>
+    <Field name="IdArgomento" IdElRepos="2228285" type="integer" visibility="private" foreignKey="true" fkSourceClass="Argomento" fkOrigin="association">
+      <Components/>
+    </Field>
+  </Fields>
+  <Methods/>
+</Class>
