@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Relations>
-  <Relation name="" IdElRepos="-842150451" from="libro.Libro" to="libro.Collana" type="association" multiplicityFrom="3" multiplicityTo="1">
+  <Relation name="" IdElRepos="-842150451" from="libro.Tomo" to="libro.Collana" type="association" multiplicityFrom="3" multiplicityTo="1">
     <Components/>
   </Relation>
   <Relation name="" IdElRepos="-842150451" from="abilitazione.zutgr" to="abilitazione.user" type="association" multiplicityFrom="3" multiplicityTo="2">
@@ -15,13 +15,13 @@
   <Relation name="" IdElRepos="-842150451" from="abilitazione.zpermessi" to="abilitazione.ztrans" type="association" multiplicityFrom="3" multiplicityTo="2">
     <Components/>
   </Relation>
-  <Relation name="" IdElRepos="-262112" from="libro.Libro" to="libro.TipoLibro" type="association" multiplicityFrom="3" multiplicityTo="2">
+  <Relation name="" IdElRepos="-262112" from="libro.Tomo" to="libro.TipoLibro" type="association" multiplicityFrom="3" multiplicityTo="2">
     <Components/>
   </Relation>
   <Relation name="" IdElRepos="-262112" from="libro.Collana" to="libro.TipoLibro" type="association" multiplicityFrom="3" multiplicityTo="2">
     <Components/>
   </Relation>
-  <Relation name="" IdElRepos="-262112" from="libro.Libro" to="libro.Argomento" type="composition" multiplicityFrom="2" multiplicityTo="3">
+  <Relation name="" IdElRepos="-262112" from="libro.Tomo" to="libro.Argomento" type="composition" multiplicityFrom="2" multiplicityTo="3">
     <Components/>
   </Relation>
   <Relation name="" IdElRepos="-262112" from="libro.Tags" to="libro.Collana" type="association" multiplicityFrom="3" multiplicityTo="1">
@@ -30,7 +30,7 @@
   <Relation name="" IdElRepos="-262112" from="libro.Tags" to="libro.LibroTag" type="composition" multiplicityFrom="2" multiplicityTo="3">
     <Components/>
   </Relation>
-  <Relation name="" IdElRepos="-262112" from="libro.LibroTag" to="libro.Libro" type="association" multiplicityFrom="3" multiplicityTo="1">
+  <Relation name="" IdElRepos="-262112" from="libro.LibroTag" to="libro.Tomo" type="association" multiplicityFrom="3" multiplicityTo="1">
     <Components/>
   </Relation>
   <Relation name="" IdElRepos="-262112" from="libro.LibroTag" to="libro.Argomento" type="association" multiplicityFrom="3" multiplicityTo="1">

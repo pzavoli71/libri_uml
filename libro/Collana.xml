@@ -5,7 +5,7 @@
     <Field name="IdCollana" IdElRepos="-842150451" type="integer" visibility="private" primaryKey="true" identity="true">
       <Components/>
     </Field>
-    <Field name="DsCollana" IdElRepos="-842150451" type="string" visibility="private">
+    <Field name="DsCollana" IdElRepos="-842150451" type="string" visibility="private" length="500">
       <Components/>
     </Field>
     <Field name="TpLibro" IdElRepos="2228285" type="integer" visibility="private" foreignKey="true" fkSourceClass="TipoLibro" fkOrigin="association">

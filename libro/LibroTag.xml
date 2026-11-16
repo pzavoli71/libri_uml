@@ -8,7 +8,7 @@
     <Field name="IdTags" IdElRepos="2228285" type="integer" visibility="private" foreignKey="true" fkSourceClass="Tags" fkOrigin="composition">
       <Components/>
     </Field>
-    <Field name="IdLibro" IdElRepos="3" type="integer" visibility="private" foreignKey="true" fkSourceClass="Libro" fkOrigin="association">
+    <Field name="IdLibro" IdElRepos="3" type="integer" visibility="private" foreignKey="true" fkSourceClass="Tomo" fkOrigin="association">
       <Components/>
     </Field>
     <Field name="IdArgomento" IdElRepos="2228285" type="integer" visibility="private" foreignKey="true" fkSourceClass="Argomento" fkOrigin="association">
