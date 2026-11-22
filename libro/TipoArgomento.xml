@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Class name="TipoArgomento" IdElRepos="0" description="Riviste mensili, quotidiani">
+  <Components/>
+  <Fields>
+    <Field name="TpArgomento" IdElRepos="3" type="integer" visibility="private" primaryKey="true" autoCalcUserIdentity="true">
+      <Components/>
+    </Field>
+    <Field name="DsArgomento" IdElRepos="0" type="string" visibility="private" length="200">
+      <Components/>
+    </Field>
+  </Fields>
+  <Methods/>
+</Class>

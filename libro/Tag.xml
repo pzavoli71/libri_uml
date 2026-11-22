@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Class name="Tags" IdElRepos="0">
+<Class name="Tag" IdElRepos="0">
   <Components/>
   <Fields>
-    <Field name="IdTags" IdElRepos="2228285" type="integer" visibility="private" primaryKey="true" identity="true">
+    <Field name="IdTag" IdElRepos="2228285" type="integer" visibility="private" primaryKey="true" identity="true">
       <Components/>
     </Field>
     <Field name="NomeTag" IdElRepos="2228285" type="string" visibility="private" length="50">
       <Components/>
     </Field>
     <Field name="IdCollana" IdElRepos="0" type="integer" visibility="private" foreignKey="true" fkSourceClass="Collana" fkOrigin="association">
+      <Components/>
+    </Field>
+    <Field name="TpTag" IdElRepos="2228285" type="integer" visibility="private" foreignKey="true" fkSourceClass="TipoTag" fkOrigin="association">
       <Components/>
     </Field>
   </Fields>

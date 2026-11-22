@@ -5,13 +5,13 @@
     <Field name="IdLibrotag" IdElRepos="2228285" type="integer" visibility="private" primaryKey="true" identity="true">
       <Components/>
     </Field>
-    <Field name="IdTags" IdElRepos="2228285" type="integer" visibility="private" foreignKey="true" fkSourceClass="Tags" fkOrigin="composition">
+    <Field name="IdTag" IdElRepos="2228285" type="integer" visibility="private" foreignKey="true" fkSourceClass="Tag" fkOrigin="composition">
       <Components/>
     </Field>
     <Field name="IdLibro" IdElRepos="3" type="integer" visibility="private" foreignKey="true" fkSourceClass="Tomo" fkOrigin="association">
       <Components/>
     </Field>
-    <Field name="IdArgomento" IdElRepos="2228285" type="integer" visibility="private" foreignKey="true" fkSourceClass="Argomento" fkOrigin="association">
+    <Field name="IdContenuto" IdElRepos="2228285" type="integer" visibility="private" foreignKey="true" fkSourceClass="Contenuto" fkOrigin="association">
       <Components/>
     </Field>
   </Fields>

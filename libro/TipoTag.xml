@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Class name="TipoTag" IdElRepos="0">
+  <Components/>
+  <Fields>
+    <Field name="TpTag" IdElRepos="2228285" type="integer" visibility="private" primaryKey="true" autoCalcUserIdentity="true">
+      <Components/>
+    </Field>
+    <Field name="DsTipoTag" IdElRepos="3" type="string" visibility="private" length="50">
+      <Components/>
+    </Field>
+    <Field name="TpArgomento" IdElRepos="24" type="integer" visibility="private" foreignKey="true" fkSourceClass="TipoArgomento" fkOrigin="association">
+      <Components/>
+    </Field>
+  </Fields>
+  <Methods/>
+</Class>

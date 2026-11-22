@@ -2,49 +2,60 @@
 <Diagram name="libro" path="libro">
   <Object class="libro.TipoLibro" x="36" y="165"/>
   <Object class="libro.Tomo" x="223" y="217"/>
-  <Object class="libro.Collana" x="243" y="47"/>
-  <Object class="libro.TIpoCollana" x="515" y="88"/>
-  <Object class="libro.Argomento" x="175" y="468"/>
-  <Object class="libro.Tags" x="486" y="267"/>
-  <Object class="libro.LibroTag" x="423" y="419"/>
+  <Object class="libro.Collana" x="237" y="45"/>
+  <Object class="libro.TipoArgomento" x="439" y="18"/>
+  <Object class="libro.Contenuto" x="175" y="468"/>
+  <Object class="libro.Tag" x="440" y="244"/>
+  <Object class="libro.LibroTag" x="410" y="436"/>
+  <Object class="libro.TipoTag" x="525" y="122"/>
   <Relation name="" IdElRepos="-842150451" from="libro.Tomo" to="libro.Collana" type="association" multiplicityFrom="3" multiplicityTo="1">
     <Components/>
     <Point x="272" y="217"/>
-    <Point x="276" y="119"/>
+    <Point x="277" y="117"/>
   </Relation>
   <Relation name="" IdElRepos="-262112" from="libro.Tomo" to="libro.TipoLibro" type="association" multiplicityFrom="3" multiplicityTo="2">
     <Components/>
     <Point x="223" y="279"/>
     <Point x="112" y="214"/>
   </Relation>
-  <Relation name="" IdElRepos="-262112" from="libro.Collana" to="libro.TipoLibro" type="association" multiplicityFrom="3" multiplicityTo="2">
-    <Components/>
-    <Point x="243" y="101"/>
-    <Point x="112" y="171"/>
-  </Relation>
-  <Relation name="" IdElRepos="-262112" from="libro.Tomo" to="libro.Argomento" type="composition" multiplicityFrom="2" multiplicityTo="3">
+  <Relation name="" IdElRepos="-262112" from="libro.Tomo" to="libro.Contenuto" type="composition" multiplicityFrom="2" multiplicityTo="3">
     <Components/>
     <Point x="250" y="397"/>
-    <Point x="236" y="468"/>
+    <Point x="235" y="468"/>
   </Relation>
-  <Relation name="" IdElRepos="-262112" from="libro.Tags" to="libro.Collana" type="association" multiplicityFrom="3" multiplicityTo="1">
+  <Relation name="" IdElRepos="-262112" from="libro.Tag" to="libro.Collana" type="association" multiplicityFrom="3" multiplicityTo="1">
     <Components/>
-    <Point x="486" y="273"/>
-    <Point x="313" y="115"/>
+    <Point x="440" y="254"/>
+    <Point x="312" y="117"/>
   </Relation>
-  <Relation name="" IdElRepos="-262112" from="libro.Tags" to="libro.LibroTag" type="composition" multiplicityFrom="2" multiplicityTo="3">
+  <Relation name="" IdElRepos="-262112" from="libro.Tag" to="libro.LibroTag" type="composition" multiplicityFrom="2" multiplicityTo="3">
     <Components/>
-    <Point x="505" y="339"/>
-    <Point x="478" y="419"/>
+    <Point x="466" y="334"/>
+    <Point x="453" y="436"/>
   </Relation>
   <Relation name="" IdElRepos="-262112" from="libro.LibroTag" to="libro.Tomo" type="association" multiplicityFrom="3" multiplicityTo="1">
     <Components/>
-    <Point x="423" y="431"/>
-    <Point x="315" y="344"/>
+    <Point x="410" y="444"/>
+    <Point x="315" y="351"/>
   </Relation>
-  <Relation name="" IdElRepos="-262112" from="libro.LibroTag" to="libro.Argomento" type="association" multiplicityFrom="3" multiplicityTo="1">
+  <Relation name="" IdElRepos="-262112" from="libro.LibroTag" to="libro.Contenuto" type="association" multiplicityFrom="3" multiplicityTo="1">
     <Components/>
-    <Point x="423" y="475"/>
-    <Point x="273" y="517"/>
+    <Point x="410" y="489"/>
+    <Point x="269" y="520"/>
+  </Relation>
+  <Relation name="" IdElRepos="-262112" from="libro.Tag" to="libro.TipoTag" type="association" multiplicityFrom="3" multiplicityTo="2">
+    <Components/>
+    <Point x="504" y="244"/>
+    <Point x="540" y="194"/>
+  </Relation>
+  <Relation name="" IdElRepos="-262112" from="libro.Collana" to="libro.TipoArgomento" type="association" multiplicityFrom="3" multiplicityTo="1">
+    <Components/>
+    <Point x="321" y="73"/>
+    <Point x="439" y="53"/>
+  </Relation>
+  <Relation name="" IdElRepos="-262112" from="libro.TipoTag" to="libro.TipoArgomento" type="association" multiplicityFrom="3" multiplicityTo="2">
+    <Components/>
+    <Point x="540" y="122"/>
+    <Point x="504" y="72"/>
   </Relation>
 </Diagram>

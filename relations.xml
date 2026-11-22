@@ -18,22 +18,28 @@
   <Relation name="" IdElRepos="-262112" from="libro.Tomo" to="libro.TipoLibro" type="association" multiplicityFrom="3" multiplicityTo="2">
     <Components/>
   </Relation>
-  <Relation name="" IdElRepos="-262112" from="libro.Collana" to="libro.TipoLibro" type="association" multiplicityFrom="3" multiplicityTo="2">
+  <Relation name="" IdElRepos="-262112" from="libro.Tomo" to="libro.Contenuto" type="composition" multiplicityFrom="2" multiplicityTo="3">
     <Components/>
   </Relation>
-  <Relation name="" IdElRepos="-262112" from="libro.Tomo" to="libro.Argomento" type="composition" multiplicityFrom="2" multiplicityTo="3">
+  <Relation name="" IdElRepos="-262112" from="libro.Tag" to="libro.Collana" type="association" multiplicityFrom="3" multiplicityTo="1">
     <Components/>
   </Relation>
-  <Relation name="" IdElRepos="-262112" from="libro.Tags" to="libro.Collana" type="association" multiplicityFrom="3" multiplicityTo="1">
-    <Components/>
-  </Relation>
-  <Relation name="" IdElRepos="-262112" from="libro.Tags" to="libro.LibroTag" type="composition" multiplicityFrom="2" multiplicityTo="3">
+  <Relation name="" IdElRepos="-262112" from="libro.Tag" to="libro.LibroTag" type="composition" multiplicityFrom="2" multiplicityTo="3">
     <Components/>
   </Relation>
   <Relation name="" IdElRepos="-262112" from="libro.LibroTag" to="libro.Tomo" type="association" multiplicityFrom="3" multiplicityTo="1">
     <Components/>
   </Relation>
-  <Relation name="" IdElRepos="-262112" from="libro.LibroTag" to="libro.Argomento" type="association" multiplicityFrom="3" multiplicityTo="1">
+  <Relation name="" IdElRepos="-262112" from="libro.LibroTag" to="libro.Contenuto" type="association" multiplicityFrom="3" multiplicityTo="1">
+    <Components/>
+  </Relation>
+  <Relation name="" IdElRepos="-262112" from="libro.Tag" to="libro.TipoTag" type="association" multiplicityFrom="3" multiplicityTo="2">
+    <Components/>
+  </Relation>
+  <Relation name="" IdElRepos="-262112" from="libro.Collana" to="libro.TipoArgomento" type="association" multiplicityFrom="3" multiplicityTo="2">
+    <Components/>
+  </Relation>
+  <Relation name="" IdElRepos="-262112" from="libro.TipoTag" to="libro.TipoArgomento" type="association" multiplicityFrom="3" multiplicityTo="2">
     <Components/>
   </Relation>
 </Relations>

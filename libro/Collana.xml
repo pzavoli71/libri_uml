@@ -8,7 +8,7 @@
     <Field name="DsCollana" IdElRepos="-842150451" type="string" visibility="private" length="500">
       <Components/>
     </Field>
-    <Field name="TpLibro" IdElRepos="2228285" type="integer" visibility="private" foreignKey="true" fkSourceClass="TipoLibro" fkOrigin="association">
+    <Field name="TpArgomento" IdElRepos="271492192" type="integer" visibility="private" foreignKey="true" fkSourceClass="TipoArgomento" fkOrigin="association">
       <Components/>
     </Field>
   </Fields>
